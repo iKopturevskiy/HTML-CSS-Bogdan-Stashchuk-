@@ -1,4 +1,7 @@
-h1,
+h1, p {
+  background-color: #7e753a;
+}
+
 p {
-  background-color: yellow;
+  color: lightgrey;
 }

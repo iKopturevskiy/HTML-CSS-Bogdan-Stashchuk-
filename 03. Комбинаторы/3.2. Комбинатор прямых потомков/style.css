@@ -1,3 +1,7 @@
 div > p {
   background-color: cyan;
 }
+
+#div > .anotherColor {
+  background-color: #5ac573;
+}

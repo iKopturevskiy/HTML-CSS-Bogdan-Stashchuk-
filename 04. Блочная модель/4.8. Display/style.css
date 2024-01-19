@@ -5,6 +5,7 @@
 
 .inline-level {
   display: inline;
+  margin-left: 20px;
 
   /* Следующие свойства будут игнорироваться для inline элементов */
   /*

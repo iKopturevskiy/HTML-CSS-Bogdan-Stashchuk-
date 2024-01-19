@@ -1,7 +1,23 @@
 .container {
   border: 2px solid blue;
+  margin: 10px;
 }
 
-.container img {
-  width: 30%;
+.container div {
+  width: calc(100% / 3);
+  height: 100px;
+  background-color: #5ac573;
+  margin: 10px;
+}
+
+.container2 {
+  display: flex;
+  border: 2px solid blue;
+}
+
+.container2 div {
+  border: 1px solid red;
+  margin: 2px;
+  text-align: center;
+  width: calc(100% / 4);
 }

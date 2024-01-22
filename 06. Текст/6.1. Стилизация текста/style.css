@@ -1,10 +1,10 @@
 body {
-  margin: 70px;
+  margin: 50px;
 }
 
-p {
+/*p {
   width: 750px;
-}
+}*/
 
 .text-color {
   color: blue;
@@ -77,13 +77,13 @@ p {
 .text-left,
 .text-center,
 .text-right {
-  width: 100%;
   background-color: gold;
   padding: 10px;
+  border: 5px solid lightgreen;
 }
 
 .text-left {
-  text-align: left;
+  text-align: left; /* default */
 }
 
 .text-center {
@@ -95,6 +95,12 @@ p {
 }
 
 .text-justified {
-  width: 45%;
+  width: 60%;
   text-align: justify;
+}
+
+.text-medium-1 {
+  font-size: 1.25rem;
+  color: #156870;
+  font-style: italic;
 }

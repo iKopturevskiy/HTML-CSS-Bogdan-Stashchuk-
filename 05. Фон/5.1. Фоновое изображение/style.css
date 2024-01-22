@@ -1,11 +1,11 @@
 .bg-image {
-  background-image: url("https://picsum.photos/id/46/200");
-  width: 200px;
-  height: 200px;
+  background-image: url("https://picsum.photos/id/51/200");
+  width: 600px;
+  height: 600px;
 }
 
 .bg-small {
-  background-image: url("https://picsum.photos/id/46/200");
+  background-image: url("https://picsum.photos/id/61/200");
   width: 350px;
   height: 350px;
   border: 1px solid gray;
@@ -13,8 +13,17 @@
 
 .bg-repeat-off {
   background-repeat: no-repeat;
+  width: 300px;
 }
 
 .bg-repeat-no-crop {
   background-repeat: round;
+  width: 500px
+}
+
+.text {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 20px;
 }

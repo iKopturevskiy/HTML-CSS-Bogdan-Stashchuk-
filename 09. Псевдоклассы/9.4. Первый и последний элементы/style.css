@@ -1,5 +1,5 @@
 body {
-  margin: 70px;
+  margin: 50px;
   font-size: 1.2rem;
 }
 
@@ -9,18 +9,18 @@ body {
   margin-top: 35px;
 }
 
-.menu li {
+.menu > li {
   padding: 20px;
   background-color: lightgray;
   border-bottom: 3px solid yellow;
 }
 
 /* Стилизация первого элемента списка */
-.menu li:first-child {
+.menu > li:first-child {
   background-color: lightseagreen;
   color: white;
 }
 
-.menu li:last-child {
+.menu > li:last-child {
   border-bottom: none; /* Удаление нижней границы для последнего элемента */
 }

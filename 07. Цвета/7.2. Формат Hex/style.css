@@ -1,5 +1,5 @@
 body {
-  margin: 70px;
+  margin: 50px;
 }
 
 .box {
@@ -53,4 +53,14 @@ body {
 
 .box10 {
   background-color: #16a1a1;
+}
+
+.box11 {
+  background-color: #E3681E;
+  color: #1EE0E3;
+}
+
+.box12 {
+  background-color: #2547E6;
+  color: #E5B624;
 }

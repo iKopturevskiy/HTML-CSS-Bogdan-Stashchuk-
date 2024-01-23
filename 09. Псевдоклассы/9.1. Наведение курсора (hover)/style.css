@@ -14,5 +14,13 @@ body {
 }
 
 .hover-button:hover {
-  background-color: #2980b9; /* изменение цвета на более темный оттенок синего */
+  color: #34548d;
+  background-color: #43b6af; /* изменение цвета на более темный оттенок синего */
+  box-shadow: 3px 3px 3px;
+}
+
+.hover-button:active {
+  margin-top: 33px;
+  margin-left: 3px;
+  box-shadow: none;
 }

@@ -23,7 +23,7 @@ table,
 tr,
 th,
 td {
-  border: 1px solid;
+  border: 1px solid black;
   border-collapse: collapse; /* объединяет границы отдельных элементов таблицы */
 }
 
@@ -34,6 +34,20 @@ td {
 }
 
 /* можно также использовать "odd" */
-tr:nth-child(even) {
+tbody > tr:nth-child(odd) {
   background-color: lightgray;
+}
+
+div > p:last-child {
+  text-decoration: underline;
+}
+
+tbody > tr:nth-child(even){
+  color: white;
+  background-color: darkgray;
+}
+
+thead > tr{
+  color: white;
+  background-color: chocolate;
 }

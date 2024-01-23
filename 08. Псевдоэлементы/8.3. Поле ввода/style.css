@@ -1,5 +1,5 @@
 body {
-  margin: 70px;
+  margin: 50px;
   font-size: 1.5rem;
 }
 
@@ -10,7 +10,7 @@ body {
 input {
   font-size: 1.3rem;
   padding: 12px;
-  border-radius: 5px;
+  border-radius: 8px;
   border: 2px solid lightgray;
 }
 
@@ -24,4 +24,5 @@ label {
 input::placeholder {
   color: indigo;
   font-style: italic;
+  opacity: 0.5;
 }

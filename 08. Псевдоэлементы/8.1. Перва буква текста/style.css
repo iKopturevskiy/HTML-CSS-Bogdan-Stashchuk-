@@ -1,5 +1,5 @@
 body {
-  margin: 70px;
+  margin: 50px;
 }
 
 p {
@@ -10,4 +10,9 @@ p {
 p::first-letter {
   color: green;
   font-size: 3rem;
+}
+
+p:first-line {
+  color: lightgreen;
+  font-style: italic;
 }

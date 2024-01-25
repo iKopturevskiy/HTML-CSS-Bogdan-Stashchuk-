@@ -3,7 +3,7 @@ body {
 }
 
 .box {
-  margin: 30px 0;
+  margin: 40px 0;
   width: 150px;
   height: 150px;
   background-color: darkorange;
@@ -11,23 +11,24 @@ body {
 }
 
 .move-xy {
-  animation-name: move;
+  /* Длинный вариант */
+/*  animation-name: move;
   animation-duration: 3s;
   animation-timing-function: ease-out;
   animation-delay: 2s;
   animation-iteration-count: infinite;
-  animation-direction: alternate;
+  animation-direction: alternate;*/
 
   /* или сокращенный вариант */
-  /* animation: move 3s ease-out 2s infinite alternate; */
+   animation: move 3s ease-out 2s infinite alternate;
 }
 
 @keyframes move {
   from {
-    translate: 0px 0px; /* начиная с начальной позиции */
+    translate: 0 0; /* начиная с начальной позиции */
   }
   to {
-    translate: 70px 100px; /* смещение 70px по оси X и на 100px по оси Y */
+    translate: 170px 100px; /* смещение 70px по оси X и на 100px по оси Y */
   }
 }
 
@@ -41,7 +42,7 @@ body {
 
 @keyframes moveX {
   from {
-    translate: 0px; /* начиная с начальной позиции */
+    translate: 0; /* начиная с начальной позиции */
   }
   to {
     translate: 100%; /* 100% ширины */
@@ -63,5 +64,22 @@ body {
   to {
     scale: 1.2; /* увеличение на 20% от исходного размера */
     background-color: darkmagenta;
+  }
+}
+
+/*********************************************/
+
+.rotate {
+  border-radius: 50%;
+  border: 10px solid white;
+  border-top-color: #0c1b6f;
+  border-bottom-color: #0c1b6f;
+  animation: rotate 2s linear 0s infinite;
+  margin-left: calc(50% - 75px);
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
   }
 }

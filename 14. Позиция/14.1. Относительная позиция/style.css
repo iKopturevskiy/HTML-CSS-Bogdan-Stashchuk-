@@ -24,9 +24,10 @@ p {
 
 .imageCaption {
   position: relative;
-  top: -80px;
+  top: -200px;
   left: 42px;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.4);
+  text-align: center;
   color: white;
   padding: 5px;
   width: 200px;

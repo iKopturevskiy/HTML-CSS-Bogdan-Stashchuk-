@@ -19,7 +19,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 12px;
+  gap: 5px;
 }
 
 .logo {
@@ -28,7 +28,7 @@ ul {
 
 .menu-item {
   cursor: pointer;
-  padding: 15px 0px;
+  padding: 15px 10px;
   border-radius: 8px;
   transition: background-color 0.3s ease-in;
 }

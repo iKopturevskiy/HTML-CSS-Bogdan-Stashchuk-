@@ -2,18 +2,26 @@ body {
   margin: 30px;
 }
 
+.main-container {
+  border: 3px solid green;
+  padding: 30px;
+}
+
 .container {
   border: 3px solid red;
   margin: 15px;
   display: flex;
-  /* раскомментируйте при использовании свойств align-items и align-self */
-  /* height: 150px; */
 
   /* раскомментируйте по одному свойству для просмотра результатов */
-  /* flex-wrap: wrap; */
-  /* justify-content: flex-start; */
-  /* align-items: stretch; */
-  /* gap: 10px; */
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+}
+
+/* раскомментируйте при использовании свойств align-items и align-self */
+.container.row {
+  height: 500px;
 }
 
 /* выбор элемента с обоими классами: "container" и "column" */
@@ -27,23 +35,28 @@ body {
   height: 100px;
   background-color: cornflowerblue;
   border: 2px solid darkblue;
-  /* flex-basis: 50px; */
+  color: white;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 100px;
 }
 
 /* раскомментируйте для использования свойства flex-grow */
 /* .box:nth-child(2) {
   flex-grow: 3;
   background-color: greenyellow;
-} */
+}*/
 
 /* раскомментируйте для использования свойства flex-shrink */
 /* .box:nth-child(2) {
   flex-shrink: 3;
   background-color: greenyellow;
-} */
+}*/
 
 /* раскомментируйте для использования свойства align-self */
-/* .box:nth-child(2) {
+ .box:nth-child(2) {
   align-self: flex-end;
   background-color: greenyellow;
-} */
+}

@@ -10,10 +10,10 @@ body {
   grid-template-rows: repeat(4, 150px);
   /* 4 ряда и 3 колонки */
   grid-template-areas:
-    "header   header header"
-    "sidebar  main   main"
-    "sidebar  main   main"
-    "footer   footer footer";
+    "header   header header   header"
+    "leftside  main   main  rightside"
+    "leftside  main   main  rightside"
+    "footer   footer footer  footer";
 
 }
 
@@ -23,12 +23,17 @@ body {
   padding: 20px;
 }
 
-.topbar {
+.top-bar {
   grid-area: header;
 }
 
-.side {
-  grid-area: sidebar;
+.left-side {
+  grid-area: leftside;
+  background-color: darkturquoise;
+}
+
+.right-side {
+  grid-area: rightside;
   background-color: darkturquoise;
 }
 
@@ -42,14 +47,29 @@ body {
   background-color: plum;
 }
 
+@media (max-width: 800px) {
+  .right-side {
+    display: none;
+  }
+
+  .gridContainer {
+    grid-template-areas:
+    "header   header header"
+    "leftside  main   main"
+    "leftside  main   main"
+    "footer   footer footer";
+  }
+}
+
 @media (max-width: 550px) {
+
   .gridContainer {
     grid-template-rows: repeat(5, 130px);
 
     /* 5 рядов и 1 колонка */
     grid-template-areas:
       "header"
-      "sidebar"
+      "leftside"
       "main"
       "main"
       "footer";
